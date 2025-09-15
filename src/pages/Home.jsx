@@ -16,32 +16,35 @@ const HomePage = () => {
             <p className="text-xl">Explore my projects, learn about me, and get in touch!</p>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 px-6 py-10">
-            <div className="bg-gray-900 rounded-full bg-opacity-80 shadow-lg max-w-[400px] w-full flex items-center justify-center">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 px-4 sm:px-6 py-10">
+          
+            <div className="bg-gray-900 rounded-full bg-opacity-80 shadow-lg w-48 sm:w-64 md:w-80 flex items-center justify-center">
               <img
                 src={MyPhoto}
                 alt="My Photo"
-                className="object-cover object-top rounded-full border border-blue-500"
+                className="object-cover object-top rounded-full border border-blue-500 w-full h-auto"
               />
             </div>
 
-            <div className="p-6 max-w-3xl w-full flex flex-col justify-center bg-gray-950/75 rounded-lg shadow-lg">
+            <div className="p-4 sm:p-6 max-w-3xl w-full flex flex-col justify-center bg-gray-950/75 rounded-lg shadow-lg">
               <div>
-                <h2 className="text-8xl bg-linear-to-r from-yellow-600 to-lime-500 bg-clip-text font-extrabold text-transparent mb-6">
+                <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl bg-gradient-to-r from-yellow-600 to-lime-500 bg-clip-text font-extrabold text-transparent mb-4 sm:mb-6">
                   SOFTWARE ENGINEERING
                 </h2>
 
-                <h2 className="text-4xl bg-linear-to-r from-orange-600 to-pink-800 bg-clip-text font-extrabold text-transparent mb-6">
+                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl bg-gradient-to-r from-orange-600 to-pink-800 bg-clip-text font-extrabold text-transparent mb-4 sm:mb-6">
                   CRUZ RIVERA EDWIN MANUEL
                 </h2>
               </div>
+
               <div>
-                <button className="mt-6 inline-flex items-center gap-2 bg-linear-65 from-blue-500 to-gray-800 text-white font-semibold py-3 px-6 rounded-lg cursor-pointer hover:scale-105 transition-transform">
+                <button className="mt-4 sm:mt-6 inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-gray-800 text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg cursor-pointer hover:scale-105 transition-transform text-sm sm:text-base">
                   Download CV <Download />
                 </button>
               </div>
             </div>
           </div>
+
           <div className='flex flex-col items-center justify-center gap-20 py-20'>
             <About />
             <Projects />
