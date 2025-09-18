@@ -8,7 +8,7 @@ const BaseLayout = ({ children }) => {
             <Navbar />
             <div className="flex flex-row flex-1">
                 <Sidebar />
-                <main className="flex-1 overflow-y-auto bg-gray-800">
+                <main className="flex-1 overflow-y-auto bg-gray-900">
                     {children}
                 </main>
             </div>

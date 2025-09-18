@@ -1,15 +1,14 @@
 import BaseLayout from "@/layouts/BaseLayout"
-import VantaBackground from "@/components/animation/VantaBackground"
-import About from "@/components/info/About"
+import VantaRings from "@/components/animation/VantaRings"
 import MeetObjectivePhoto from "/meetObjectivePhoto.png"
+import VerticalTimeline from "@/components/utils/VerticalTimeline"
 
 const AboutPage = () => {
     return (
         <BaseLayout>
-            <VantaBackground className="w-full min-h-screen h-auto">
+            <VantaRings className="w-full min-h-screen h-auto">
                 <div className='flex flex-col items-center justify-center gap-20 py-20 px-4 sm:px-6 lg:px-8'>
                     <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 px-4 sm:px-6 py-10">
-                        
                         <div className="text-white text-center p-6 sm:p-10 w-full max-w-[1200px] mx-auto bg-gray-950/75 rounded-lg shadow-lg">
                             <h1 className="text-2xl sm:text-4xl font-bold mb-4">More of me</h1>
                             <p className="text-base sm:text-lg md:text-xl leading-relaxed">
@@ -31,18 +30,22 @@ const AboutPage = () => {
                                 innovative solutions that transform the real world.
                             </p>
                         </div>
-                        <div className="flex items-center justify-center">
-                            <img
-                                src={MeetObjectivePhoto}
-                                alt="My Photo"
-                                className="object-cover object-center w-full h-auto max-w-x"
-                            />
-                        </div>
+                    </div>
+
+                    <div className="w-full max-w-[1200px] mx-auto p-6 sm:p-10">
+                        <VerticalTimeline />
+                    </div>
+
+                    <div className="flex items-center justify-center">
+                        <img
+                            src={MeetObjectivePhoto}
+                            alt="My Photo"
+                            className="object-cover object-center w-full h-auto max-w-sm"
+                        />
                     </div>
                 </div>
-
-            </VantaBackground>
-        </BaseLayout>
+            </VantaRings>
+        </BaseLayout >
 
     )
 }
