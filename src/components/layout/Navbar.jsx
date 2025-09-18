@@ -59,16 +59,16 @@ const Navbar = () => {
           {/* Links (desktop) */}
           <div className="hidden sm:flex items-center justify-between h-full gap-6 sm:gap-10 md:gap-14 underline decoration-blue-500">
             <Link
+              to={'/'}
+              className="text-white text-base sm:text-lg md:text-2xl hover:text-blue-400 font-medium"
+            >
+              Home
+            </Link>
+            <Link
               to={about_me}
               className="text-white text-base sm:text-lg md:text-2xl hover:text-blue-400 font-medium"
             >
               About
-            </Link>
-            <Link
-              to={contact_me}
-              className="text-white text-base sm:text-lg md:text-2xl hover:text-blue-400 font-medium"
-            >
-              Contact
             </Link>
             <Link
               to={projects_me}
