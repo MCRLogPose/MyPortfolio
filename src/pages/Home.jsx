@@ -10,8 +10,8 @@ const HomePage = () => {
   return (
     <BaseLayout>
       <VantaBackground className="w-full min-h-screen h-auto">
-        <div>
-          <div className="text-white text-center p-10">
+        <div className='flex flex-col items-center justify-center gap-20 py-20 px-4 sm:px-6 lg:px-8'>
+          <div className="text-white text-center p-6 sm:p-10 w-full max-w-[1200px] mx-auto bg-gray-950/75 rounded-lg shadow-lg">
             <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
             <p className="text-xl">Explore my projects, learn about me, and get in touch!</p>
           </div>
