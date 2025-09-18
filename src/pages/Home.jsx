@@ -26,9 +26,9 @@ const HomePage = () => {
               />
             </div>
 
-            <div className="p-4 sm:p-6 max-w-3xl w-full flex flex-col justify-center bg-gray-950/75 rounded-lg shadow-lg">
+            <div className="p-4 sm:p-6 max-w-2xl w-full flex flex-col justify-center bg-gray-950/75 rounded-lg shadow-lg">
               <div>
-                <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl bg-gradient-to-r from-yellow-600 to-lime-500 bg-clip-text font-extrabold text-transparent mb-4 sm:mb-6">
+                <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl bg-gradient-to-r from-yellow-600 to-lime-500 bg-clip-text font-extrabold text-transparent mb-4 sm:mb-6">
                   SOFTWARE ENGINEERING
                 </h2>
 
