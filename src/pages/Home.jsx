@@ -1,15 +1,17 @@
 import { Download } from 'lucide-react'
 import BaseLayout from "@/layouts/BaseLayout"
 import MyPhoto from "/myPhoto.jpeg"
-import VantaBackground from "@/components/animation/VantaBackground"
+import VantaRings from "@/components/animation/VantaRings"
 import About from "@/components/info/About"
 import Contact from "@/components/info/Contact"
 import Projects from "@/components/info/Projects"
+import { getFeaturedProjects } from "@/data/projectsData"
 
 const HomePage = () => {
+  
   return (
     <BaseLayout>
-      <VantaBackground className="w-full min-h-screen h-auto">
+      <VantaRings className="w-full min-h-screen h-auto">
         <div className='flex flex-col items-center justify-center gap-20 py-20 px-4 sm:px-6 lg:px-8'>
           <div className="text-white text-center p-6 sm:p-10 w-full max-w-[1200px] mx-auto bg-gray-950/75 rounded-lg shadow-lg">
             <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
@@ -51,7 +53,7 @@ const HomePage = () => {
             <Contact />
           </div>
         </div>
-      </VantaBackground>
+      </VantaRings>
     </BaseLayout>
   );
 };

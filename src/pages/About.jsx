@@ -1,12 +1,10 @@
 import BaseLayout from "@/layouts/BaseLayout"
-import VantaRings from "@/components/animation/VantaRings"
 import MeetObjectivePhoto from "/meetObjectivePhoto.png"
 import VerticalTimeline from "@/components/utils/VerticalTimeline"
 
 const AboutPage = () => {
     return (
         <BaseLayout>
-            <VantaRings className="w-full min-h-screen h-auto">
                 <div className='flex flex-col items-center justify-center gap-20 py-20 px-4 sm:px-6 lg:px-8'>
                     <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 px-4 sm:px-6 py-10">
                         <div className="text-white text-center p-6 sm:p-10 w-full max-w-[1200px] mx-auto bg-gray-950/75 rounded-lg shadow-lg">
@@ -44,7 +42,6 @@ const AboutPage = () => {
                         />
                     </div>
                 </div>
-            </VantaRings>
         </BaseLayout >
 
     )
