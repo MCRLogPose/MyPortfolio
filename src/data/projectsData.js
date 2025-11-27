@@ -4,12 +4,12 @@
 export const projectsData = [
     {
         id: 1,
-        title: "E-Commerce Platform",
-        description: "Full-stack e-commerce application with payment integration, user authentication, and admin dashboard.",
-        technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+        title: "Tendaly - Platform for Mothers Entrepreneurs",
+        description: "Full-stack A platform where small Peruvian entrepreneurs can showcase their products and their brand.",
+        technologies: ["React", "Node.js", "MySQL", "Larabel"],
         image: "/projects/ecommerce.jpg", // Add your project images to public/projects/
-        githubUrl: "https://github.com/yourusername/ecommerce",
-        liveUrl: "https://your-ecommerce-demo.com",
+        githubUrl: "https://github.com/Crisba05/TENDALY_FRONTEND",
+        liveUrl: "https://vip.tendaly.org/user/home",
         featured: true,
         category: "Full Stack"
     },
@@ -17,7 +17,7 @@ export const projectsData = [
         id: 2,
         title: "Incident Management System",
         description: "Incident Management System for university UTP. And Proactive Maintenance System for universities and colleges.",
-        technologies: ["React", "Node.js", "MySQL", "Spring Boot"],
+        technologies: ["React", "Node.js", "MySQL", "Spring Boot", "Java"],
         image: "/projects/taskmanager.jpg",
         githubUrl: "https://github.com/MCRLogPose/SIGISWEBAPP",
         liveUrl: "https://sigis-front.vercel.app/",
@@ -26,12 +26,12 @@ export const projectsData = [
     },
     {
         id: 3,
-        title: "AI Chat Application",
-        description: "Real-time chat application with AI-powered responses, message encryption, and multimedia support.",
-        technologies: ["Next.js", "OpenAI API", "PostgreSQL", "WebSocket"],
-        image: "/projects/aichat.jpg",
-        githubUrl: "https://github.com/yourusername/ai-chat",
-        liveUrl: "https://your-aichat-demo.com",
+        title: "Static Website For Wine",
+        description: "Static Website For Wine, first project in css, html, js",
+        technologies: ["css", "HTML", "js"],
+        image: "/projects/wine.jpg",
+        githubUrl: "https://github.com/MCRLogPose/ProyectoWebG5",
+        liveUrl: "https://website-static-wine.vercel.app/",
         featured: true,
         category: "Full Stack"
     },
