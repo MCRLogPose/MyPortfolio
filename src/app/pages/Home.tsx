@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { useApp } from '../contexts/AppContext';
 import { Download, Video } from 'lucide-react';
 import { translations } from '../i18n/translations';
+import cvFile from '../../assets/Cruz_Rivera_Edwin_Manuel_CV.pdf';
 
 export function Home() {
   const { language } = useApp();
@@ -94,7 +95,9 @@ export function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            <motion.button
+            <motion.a
+              href={cvFile}
+              download="Edwin_Cruz_CV.pdf"
               className="group relative px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-full overflow-hidden shadow-lg shadow-primary/25"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -109,9 +112,12 @@ export function Home() {
                 whileHover={{ x: 0 }}
                 transition={{ duration: 0.3 }}
               />
-            </motion.button>
+            </motion.a>
 
-            <motion.button
+            <motion.a
+              href={(t as any).videoLink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group px-8 py-4 border-2 border-primary text-primary dark:text-primary-foreground rounded-full hover:bg-primary hover:text-white dark:hover:text-primary-foreground transition-all shadow-lg shadow-primary/10"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -120,7 +126,7 @@ export function Home() {
                 <Video className="w-5 h-5" />
                 {t.watchVideo}
               </span>
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
 

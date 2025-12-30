@@ -10,7 +10,8 @@
         "name": "Edwin Cruz",
         "subtitle": "Full Stack Developer",
         "downloadCV": "Download CV",
-        "watchVideo": "Presentation"
+        "watchVideo": "Presentation",
+        "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     "about": {
         "title": "About me",
@@ -59,7 +60,9 @@
                 "image": "/tendalyLogo.svg",
                 "category": "Web Apps",
                 "linkDemo": "https://vip.tendaly.org",
-                "linkCode": "https://github.com/Crisba05/TENDALY_FRONTEND"
+                "linkCode": "https://github.com/Crisba05/TENDALY_FRONTEND",
+                "linkDemoBackend": "https://api.tendaly.org",
+                "linkCodeBackend": "https://github.com/Crisba05/TENDALY_BACKEND"
             }
         ]
     },
