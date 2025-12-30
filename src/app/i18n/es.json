@@ -1,0 +1,80 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "home": {
+        "greeting": "Hola, soy",
+        "name": "Edwin Cruz",
+        "subtitle": "Desarrollador Full Stack",
+        "downloadCV": "Descargar CV",
+        "watchVideo": "Presentación"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "intro": "Soy un desarrollador apasionado por crear experiencias digitales únicas y funcionales.",
+        "description": "Con experiencia en el desarrollo frontend y backend, me especializo en crear aplicaciones web modernas que combinan diseño elegante con código limpio y eficiente.",
+        "skills": "Habilidades",
+        "experience": "Experiencia",
+        "experienceText": "Más de 2 años de experiencia en desarrollo web, trabajando con tecnologías como React, TypeScript, Node.js y más.",
+        "values": {
+            "cleanCode": {
+                "title": "Código Limpio",
+                "description": "Escribo código mantenible y escalable siguiendo las mejores prácticas."
+            },
+            "creativeDesign": {
+                "title": "Diseño Creativo",
+                "description": "Creo interfaces atractivas que mejoran la experiencia del usuario."
+            },
+            "highPerformance": {
+                "title": "Alto Rendimiento",
+                "description": "Optimizo cada proyecto para obtener el máximo rendimiento."
+            }
+        }
+    },
+    "projects": {
+        "title": "Proyectos",
+        "subtitle": "Una selección de mis trabajos más destacados",
+        "viewProject": "Ver proyecto",
+        "viewCode": "Ver código",
+        "categories": {
+            "web": "Web Apps",
+            "mobile": "Mobile",
+            "design": "Design",
+            "backend": "Backend"
+        },
+        "list": [
+            {
+                "title": "Tendaly Store",
+                "description": "Plataforma web destinado a pequeñas empresas a mostrar su catalogo de productos y servicios, permite administracion de productos y servicios, edicion de perfil y visualizacion de reportes y dashboard.",
+                "tags": [
+                    "React",
+                    "Node.js",
+                    "MySQL",
+                    "Laravel",
+                    "Figma"
+                ],
+                "image": "/tendalyLogo.svg",
+                "category": "Web Apps",
+                "linkDemo": "https://vip.tendaly.org",
+                "linkCode": "https://github.com/Crisba05/TENDALY_FRONTEND"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contáctame",
+        "subtitle": "¿Tienes algún proyecto en mente? ¡Hablemos!",
+        "emailMe": "Envíame un email",
+        "emailDescription": "Siempre estoy abierto a nuevas oportunidades y colaboraciones.",
+        "socials": "Redes sociales",
+        "form": {
+            "name": "Nombre",
+            "email": "Email",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "send": "Enviar mensaje"
+        }
+    }
+}

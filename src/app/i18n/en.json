@@ -1,0 +1,80 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "home": {
+        "greeting": "Hi, I am",
+        "name": "Edwin Cruz",
+        "subtitle": "Full Stack Developer",
+        "downloadCV": "Download CV",
+        "watchVideo": "Presentation"
+    },
+    "about": {
+        "title": "About me",
+        "intro": "I am a developer passionate about creating unique and functional digital experiences.",
+        "description": "With experience in frontend and backend development, I specialize in creating modern web applications that combine elegant design with clean and efficient code.",
+        "skills": "Skills",
+        "experience": "Experience",
+        "experienceText": "Over 5 years of experience in web development, working with technologies like React, TypeScript, Node.js and more.",
+        "values": {
+            "cleanCode": {
+                "title": "Clean Code",
+                "description": "I write maintainable and scalable code following best practices."
+            },
+            "creativeDesign": {
+                "title": "Creative Design",
+                "description": "I create attractive interfaces that enhance user experience."
+            },
+            "highPerformance": {
+                "title": "High Performance",
+                "description": "I optimize every project to achieve maximum performance."
+            }
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "A selection of my most outstanding works",
+        "viewProject": "View project",
+        "viewCode": "View code",
+        "categories": {
+            "web": "Web Apps",
+            "mobile": "Mobile",
+            "design": "Design",
+            "backend": "Backend"
+        },
+        "list": [
+            {
+                "title": "Tendaly Store",
+                "description": "Web platform designed for small businesses to showcase their catalog of products and services, allowing product and service management, profile editing, and viewing of reports and dashboards.",
+                "tags": [
+                    "React",
+                    "Node.js",
+                    "MySQL",
+                    "Laravel",
+                    "Figma"
+                ],
+                "image": "/tendalyLogo.svg",
+                "category": "Web Apps",
+                "linkDemo": "https://vip.tendaly.org",
+                "linkCode": "https://github.com/Crisba05/TENDALY_FRONTEND"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Me",
+        "subtitle": "Have a project in mind? Let's talk!",
+        "emailMe": "Send me an email",
+        "emailDescription": "I'm always open to new opportunities and collaborations.",
+        "socials": "Social Media",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "send": "Send message"
+        }
+    }
+}

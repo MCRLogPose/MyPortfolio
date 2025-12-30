@@ -11,7 +11,7 @@ export function Contact() {
         {
             icon: Github,
             label: 'GitHub',
-            href: 'https://github.com',
+            href: 'https://github.com/MCRLogPose',
             color: 'hover:text-[#333] dark:hover:text-white',
         },
         {
