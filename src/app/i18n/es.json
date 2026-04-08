@@ -63,6 +63,19 @@
                 "linkCode": "https://github.com/Crisba05/TENDALY_FRONTEND",
                 "linkDemoBackend": "https://api.tendaly.org",
                 "linkCodeBackend": "https://github.com/Crisba05/TENDALY_BACKEND"
+            },
+            {
+                "title": "VestikPOS",
+                "description": "Aplicación de escritorio para punto de venta, hecha con Rust y Tauri.",
+                "tags": [
+                    "Rust",
+                    "Tauri",
+                    "SQLite"
+                ],
+                "image": "/vestikpos.png",
+                "category": "Desktop",
+                "linkDemo": "https://github.com/MCRLogPose/pos-desktop",
+                "linkCode": "https://github.com/MCRLogPose/pos-desktop"
             }
         ]
     },
