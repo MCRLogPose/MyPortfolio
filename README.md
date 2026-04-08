@@ -1,7 +1,7 @@
 
   # Portfolio Website Design
 
-  This is a code bundle for Portfolio Website Design. The original project is available at https://www.figma.com/design/eIGDaJahmaya9EAOuBfIv6/Portfolio-Website-Design.
+  This is a code bundle for Portfolio Website Design. The original project is available at https://edwincruz.vercel.app
 
   ## Running the code
 
