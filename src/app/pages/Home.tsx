@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { useApp } from '../contexts/AppContext';
 import { Download, Video } from 'lucide-react';
 import { translations } from '../i18n/translations';
-import cvFile from '../../assets/Cruz_Rivera_Edwin_Manuel_CV.pdf';
+import cvFile from '../../assets/CruzEdwin_SoftwareEngineer_CV.pdf';
 
 export function Home() {
   const { language } = useApp();
